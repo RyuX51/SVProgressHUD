@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SVProgressHUD",
+    defaultLocalization: "en",
     platforms: [
         .iOS("8.3"), .tvOS("9.0")
     ],
